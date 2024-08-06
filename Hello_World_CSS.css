@@ -19,8 +19,8 @@
     font-size:"normal" /* Locate the .ttf file within your directory*/
   }
   
-.container {width: 2844px;
-  height: 1600px;
+.container {width: 1920px;
+  height: 1080px;
   margin: 0}
 
 h2 {font-size:5vw;
