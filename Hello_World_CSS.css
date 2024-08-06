@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Inter_Tight'; /* Name your font family */
+    src: url('Fonts/Inter,Inter_Tight/Inter_Tight/InterTight-VariableFont_wght.ttf') format('truetype');
+    font-weight: "normal";
+    font-size:"normal" /* Locate the .ttf file within your directory*/
+  }
+
+@font-face {
+    font-family: 'magicalnotes'; /* Name your font family */
+    src: url('Fonts/magicalnotes/Magicalnotes.ttf') format('truetype');
+    font-weight: "normal";
+    font-size:"normal" /* Locate the .ttf file within your directory*/
+  }
+
+@font-face {
+    font-family: 'Devant_Medium'; /* Name your font family */
+    src: url('Fonts/Devant pro/Devant-Medium.ttf') format('truetype');
+    font-weight: "normal";
+    font-size:"normal" /* Locate the .ttf file within your directory*/
+  }
+  
+.container {width: 2560px;
+  height: 1600px;
+  margin: 0}
+
+h2 {font-size:5vw;
+  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: -60px;
+  color: #f9f9f9;
+  font-family: 'magicalnotes';
+}
+
+h1 { font-size:16vw;
+  margin:10px;
+  margin-top: -40px;
+  margin-bottom: -100px;
+  color: #f9f9f9;
+  font-family: 'Inter_Tight', sans-serif; /* Use the font family */
+}
+
+h3 {font-size:4.5vw;
+  margin:20px;
+  text-align: right;
+  color: #f9f9f9;
+  font-family: 'magicalnotes'; /* Use the font family */
+}
+
+h4 {font-size:20vw;
+  margin:15px;
+  margin-top: -70px;
+  margin-bottom: 30px;
+  text-align: right;
+  letter-spacing: 10px;
+  color: #f9f9f9;
+  font-family: 'Devant_Medium', sans-serif; /* Use the font family */
+}
+
+html, body {
+    background-image: url('Fortune2_2844x1600.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-shadow:none;
+    border:none
+} 
