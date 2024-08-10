@@ -1,13 +1,12 @@
 const fonts = [
-    'Inter_Tiget',
-    'magicalnotes',
-    'Devant_Medium',
-    'Amatic',
+    'Inter Tight',
+    'Shadows Into Light',
+    'Amatic SC',
     'Bangers',
-    'Fredericka',
-    'Kirang',
-    'ryeregular',
-    'Indie_F'
+    'Fredericka The Great',
+    'Kirang Haerang',
+    'Rye',
+    'Indie Flower'
   ];
   
   const letters = document.querySelectorAll('.letter');
