@@ -98,7 +98,7 @@ transform-style: preserve-3d; /* Preserve 3D transforms */
 h2 {font-size:5vw;
 margin: 70px 0 -80px 100px;
 color: #f9f9f9;
-font-family: 'Magical notes';
+font-family: 'Indie Flower';
 }
 
 h1 { font-size:16vw;
@@ -110,7 +110,7 @@ h3 {font-size:4.5vw;
 margin: 170px 70px 60px 0;
 text-align: right;
 color: #f9f9f9;
-font-family: 'magicalnotes'; 
+font-family: 'Indie Flower'; 
 }
 
 h4 {font-size:20vw;
@@ -118,7 +118,7 @@ margin: -100px 50px 30px;
 text-align: right;
 letter-spacing: 10px;
 color: #f9f9f9;
-font-family: 'Devant_Medium', sans-serif; 
+font-family: 'Inter Tight', sans-serif; 
 }
 
 .cutout {
