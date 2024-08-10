@@ -1,63 +1,63 @@
 /* Font-Face Declarations */
 @font-face {
   font-family: 'Inter_Tight'; 
-  src: url('Fonts/Inter,Inter_Tight/Inter_Tight/InterTight-VariableFont_wght.ttf') format('truetype');
+  src: url('Fonts/InterTight-VariableFont_wght.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'magicalnotes'; 
-  src: url('Fonts/magicalnotes/Magicalnotes.ttf') format('truetype');
+  src: url('Fonts/Magicalnotes.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'Devant_Medium'; 
-  src: url('Fonts/Devant pro/Devant-Medium.ttf') format('truetype');
+  src: url('Fonts/Devant-Medium.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'Indie_F'; 
-  src: url('Fonts/Indie_Flower/IndieFlower-Regular.ttf') format('truetype');
+  src: url('Fonts/IndieFlower-Regular.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'ryeregular'; 
-  src: url('Fonts/Rye/Rye-Regular.ttf') format('truetype');
+  src: url('Fonts//Rye-Regular.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'Kirang'; 
-  src: url('Fonts/Kirang_Haerang/KirangHaerang-Regular.ttf') format('truetype');
+  src: url('Fonts/KirangHaerang-Regular.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'Fredericka'; 
-  src: url('Fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf') format('truetype');
+  src: url('Fonts/FrederickatheGreat-Regular.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'Bangers'; 
-  src: url('Fonts/Bangers/Bangers-Regular.ttf') format('truetype');
+  src: url('Fonts/Bangers-Regular.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
 
 @font-face {
   font-family: 'Amatic'; 
-  src: url('Fonts/Amatic_SC/AmaticSC-Regular.ttf') format('truetype');
+  src: url('Fonts/AmaticSC-Regular.ttf') format('truetype');
   font-weight: "normal";
   font-size:"14px" 
 }
