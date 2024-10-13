@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <title>Tribute to Tristan</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Hello_World_CSS.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bangers&family=Oswald&family=Fredericka+the+Great&family=Indie+Flower&family=Kirang+Haerang&family=Rye&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    </head>
+    <body>
+        <header>
+        <div class="containter foreground">
+            <div class="column">
+                <h2 class="pop-up" style="text-shadow: 0 0 0.1em #ffffffda, 0 0 0.01em #ffffffda, 0 0 0.01em #ffffffda;">FORTUNE</h2>
+                <h1 class="loki" style="margin-top: -170px; margin-bottom: -450px;">
+                    <p class="letter">F</p>
+                    <p class="letter">A</p>
+                    <p class="letter">V</p>
+                    <p class="letter">O</p>
+                </h1>
+                <h1 class="loki" style= "margin-bottom: -380px;">
+                    <p class="letter">U</p>
+                    <p class="letter">R</p>
+                    <p class="letter">S</p>
+                </h1>
+            </div>
+            <div class="column" style="margin-left: 50%; margin-top: -10%; border: 1px;">
+                <h2 class="caption pop-up">Use this if the music is off.</h2>
+                <div class="music pop-up">
+                    <audio id="myAudio" controls autoplay loop>
+                        <source src="Audio/LOKI_Opening_Theme_128 kbps.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                <h3 class="pop-up">THE PREPARED</h3>
+                <h4 class="pop-up">MIND</h4>
+            </div>
+        </div>
+        </header>
+            <img class="cutout midground" src="Tristan_Tate_Cutout.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+        <script src="Hello_World_JS.js"></script>
+        <script>
+            // GSAP Animation
+            document.addEventListener("DOMContentLoaded", function() {
+                gsap.from(".pop-up", {
+                    duration: 0.5,    // Animation duration
+                    scale: 0.5,       // Start at 50% scale
+                    opacity: 0,       // Start fully transparent
+                    stagger: 0.1,     // Delay between each element
+                    ease: "easeOut"   // Easing function
+                });
+            });
+        </script>
+    </body>
+</html>
