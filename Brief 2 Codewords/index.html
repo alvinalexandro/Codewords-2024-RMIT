@@ -15,9 +15,15 @@
             <div class="content-container">
                 <h2 style="text-shadow: 0 0 0.1em #f0f0f0, 0 0 0.01em #f0f0f0, 0 0 0.01em #f0f0f0;">What's scary about getting that virus?</h2>
                 <button id="playButton">What?</button>
+                <button id="backButton" style="background-color: white; color: black; border: 1px solid black; padding: 10px; cursor: pointer;">Back</button>
             </div>
         </div> 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
         <script src="brief2.js"></script>
+        <script>
+            document.getElementById('backButton').onclick = function() {
+                window.location.href = 'https://alvinalexandro.github.io/Codewords-2024-RMIT/';
+            };
+        </script>
     </body>
 </html>
